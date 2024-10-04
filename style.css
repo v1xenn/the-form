@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fce4ec; /* Warna latar belakang merah muda */
+    color: #880e4f; /* Warna teks gelap */
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #d81b60; /* Warna judul yang lebih cerah */
+}
+form {
+    max-width: 500px;
+    margin: auto;
+    padding: 50px;
+    background-color: #fff; /* Latar belakang putih untuk formulir */
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #e91e63; /* Border merah muda */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    background-color: #d81b60; /* Warna tombol */
+    color: white;
+    margin-top: 1.2rem;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 50%;
+}
+input[type="submit"]:hover {
+    background-color: #c2185b; /* Warna tombol saat hover */
+}
